@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="dayStyles.css" />
+    </head>
+    <body>
+      <h1 id="title">Who are your favorite NBA players?</h1>
+      <p id="description">Thank you for your time</p>
+      <form id="survey-form">
+      <div class="input-element">
+        <label for="name" id="name-label">
+          Name
+        <input id="name" type="text" required placeholder="name"/>
+        </label>
+      </div>
+      <div class="input-element">
+        <label for="email" id="email-label">
+          Email
+          <input id="email" type="email" required placeholder="email" />
+        </label>
+      </div>
+      <div class="input-element">
+        <label for="number" id="number-label">
+          Age
+          <input id="number" type="number" required min="5" max="120" placeholder="age"/>
+        </label>
+      </div>
+      <div class="input-element">
+        <label id="select-element">
+          Who is your favorite NBA player?
+        </label>
+          <select id="dropdown">
+            <option>Mickael Jordan</option>
+            <option>Kobe Bryan</option>
+            <option>LeBron James</option>
+          </select>
+      </div>
+      <div>
+        <label>Have you ever played basketball?</label>
+        <div>
+          <label><input type="radio" name="play" value="yes"/>Yes
+          </label>
+        </div>
+        <div>
+          <label><input type="radio" name="play" value="no"/>No
+          </label>
+        </div>
+      </div>
+      <div>
+        <label>What made you choose your favorite player?</label>
+        <div>
+          <label><input type="checkbox" name="play" value="style"/>Game style</label>
+        </div>
+        <div>
+          <label><input type="checkbox" name="play" value="talk"/>Trash talk</label>
+        </div>
+        <div>
+          <label><input type="checkbox" name="play" value="techniques"/>Uniqe techniqes</label>
+        </div>
+        <div>
+          <label><input type="checkbox" name="play" value="team"/>The team they were playing</label>
+        </div>
+        <div class="input-element">
+          <label for="comments">Provide additional comments:
+              <textarea id="comments" name="comments" rows="2" cols="20" placeholder="Anything you want to add."></textarea>
+            </label>
+        </div>
+        <button type="submit" id="submit">
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
