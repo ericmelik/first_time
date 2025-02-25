@@ -10,8 +10,8 @@ body {
      border: 2px solid black;
      border-radius: 20px;
      position: absolute; /* Position relative to the viewport */
-     top: 45%; /* Center vertically */
-     left: 50%; /* Center horizontally */
+     top: 45%; /* Center vertically */ 
+     left: 49%; /* Center horizontally */
      transform: translate(-50%, -50%); /* Offset by half of its width and height */
    }
    .input-element {
